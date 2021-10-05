@@ -1,0 +1,100 @@
+:root{
+  --primary: #636363;  
+  --shadow: 2px 0 5px rgba(49, 49, 49, 0.5);
+}
+
+.card{
+  background-color:#ebebeb;
+  padding: 1em;
+  box-shadow: var(--shadow);
+  width: 25%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-right: 5em;
+}
+
+.card2{
+  background-color:#ebebeb;
+  padding: .5em;
+  box-shadow: var(--shadow);
+  width: 25%;
+  height: 15%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  align-items: center;
+}
+
+.bar{
+  background: var(--primary);
+  height: 20px;
+  width: 100%;
+}
+
+header {
+  background-color: var(--primary);
+  color: white;
+  height: 100px;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
+
+footer {
+  background-color: var(--primary);
+  color: white;
+  height: 100px;
+  padding: 0;
+  margin: 0;
+}
+
+h1{ 
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.img-fluid {
+  height: 80%;
+  width: 100%;
+}
+
+.align-items-center{
+  align-items: center;
+}
+
+
+.d-flex {
+  display: flex;
+}
+.d-flex.justify-content-center {
+  justify-content: center;
+}
+
+.d-flex.justify-content-spacearound{
+  justify-content: space-around;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.center {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
